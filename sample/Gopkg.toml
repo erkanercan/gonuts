@@ -1,0 +1,15 @@
+[prune]
+go-tests = true
+unused-packages = true
+
+[[override]]
+name = "github.com/jinzhu/gorm"
+revision = "071b657418cccdab721e549108b6b6cf8a1b7361"
+
+[[constraint]]
+name = "github.com/patrickmn/go-cache"
+version = "2.1.0"
+
+[[constraint]]
+branch = "master"
+name = "github.com/rcrowley/go-metrics"
